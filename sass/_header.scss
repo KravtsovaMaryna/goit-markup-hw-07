@@ -1,0 +1,108 @@
+
+.header-container {
+    display: flex;
+    align-items: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.container {
+    max-width: 1200px;
+    padding: 0px 15px;
+    margin: 0 auto;
+    outline: 1px solid red;
+}
+
+.section {
+    padding-top: var(--typical-padding);
+    padding-bottom: var(--typical-padding);
+}
+
+.header {
+        border: 1px solid #ECECEC;      
+}
+
+.nav {
+    display: flex;
+    margin-right: auto;
+
+    .current {
+        color: var(--accent-color);
+    }
+}
+
+
+.nav__list {
+display: flex;
+justify-content: right;
+}
+
+.logo {
+font-family: "Raleway", sans-serif;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+color: #2196F3;
+display: block;
+margin-right: 93px;
+}
+
+   
+.logo__accent {color: var(--title-color);}
+
+.nav__item {
+font-family: 'Roboto';
+font-weight: 500;
+font-size: 14px;
+line-height: 1.19;
+letter-spacing: 0.02em;
+color: #2196F3;
+padding: 32px 0;
+/* padding-top: 24px;
+padding-bottom: 24px; */
+
+&:not(:last-child) {
+    margin-right: 50px;
+}
+}
+
+
+.nav__link {
+    color: #000;
+    display: flex;
+    align-items: center;
+    position: relative;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover, &:focus {
+    color: var(--accent-color);}
+    
+   }
+
+   /*Подчеркивание: обязательно content, чтоб было место для написания, ширина 100% ширины слова, высота в макете, bgc=цвет подчеркивания, закругление. Позиционируем слева отступ 0, опускаем НИЖЕ слова - значение с минусом, если подчеркнуть слово - bottom=0*/
+   .nav__link.current::after {
+       content: '';
+       position: absolute;
+       width: 100%;
+    height: 4px;
+    background-color: var(--accent-color);
+    border-radius: 2px;
+    left: 0;
+    bottom: -32px;
+   }
+
+.nav__soc-icon {
+        margin-right: 10px;
+        fill: var(--main-color);
+        justify-content: center;
+
+    .nav__link:hover &,
+    .nav__link:focus & {
+        fill: var(--accent-color);
+    }
+}
+
+.contacts {
+    color: var(--main-color);
+}

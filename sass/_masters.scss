@@ -1,0 +1,46 @@
+.masters {
+    background-color: #F5F4FA;
+}
+.masters__title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.masters__list {
+    display: flex;
+    margin: -15px;
+}
+
+.masters__team-item-wrapper {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    /* margin-top: 30px;
+    margin-bottom: 10px; */
+}
+.masters__item {
+    background-color: var(--focus-color);
+    margin: 15px;
+    flex-basis: calc(100% / 4 - 30px);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;
+}
+
+.masters__item-title {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.18;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--title-color);
+margin-bottom: 10px;
+/* background-color: var(--focus-color); */
+}
+
+.masters__item-text {
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+        color: var(--main-color);
+        margin-bottom: 16px;
+        /* background-color: var(--focus-color); */
+/* margin-bottom: 10px; */
+    }

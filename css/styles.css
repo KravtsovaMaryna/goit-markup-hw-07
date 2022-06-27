@@ -1,3 +1,4 @@
+
 *,
 *::after,
 *::before{
@@ -902,7 +903,7 @@ fill: var(--accent-color)
 border-color: var(--accent-color);
 } */
 
-.modal-input {
+/* .modal-input {
     outline: none;
     color: var(--accent-color);
 }
@@ -1007,8 +1008,6 @@ border-color: var(--accent-color);
     justify-content: center;
     align-items: center;
     padding: 10px 55px;
-    /* width: 200px;
-    height: 50px; */
     background-color: var(--accent-color);
     color: var(--focus-color);
     border-radius: 4px;
@@ -1023,5 +1022,5 @@ margin: auto;
     transition-property: color, background-color, fill;
     transition-duration: 300ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 

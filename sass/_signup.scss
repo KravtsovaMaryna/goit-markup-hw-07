@@ -1,0 +1,80 @@
+/* ----------Рассылка ---------*/
+.singup-footer {
+    margin-left: 93px;
+}
+
+.signup-title {
+    display: block;
+    font-weight: 700;
+    font-size: 14px;
+    color: var(--focus-color);
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.singup-form {
+    display: flex;
+}
+
+.singup-form .field-footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.signup-input {
+    background-color: #2F303A;
+    width: 358px;
+    height: 50px;
+    padding: 15px 16px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 16px;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.join-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 50px;
+    margin-left: 12px;
+    background: var(--accent-color);
+    color: var(--focus-color);
+    border-radius: 4px;
+    border: 1px solid transparent;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    fill: var(--focus-color);
+        transition-property: color, background-color, fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover, &:focus {
+        background-color: var(--focus-color);
+        color: var(--accent-color);
+        fill: var(--accent-color);
+    }
+}
+
+.signup-btn {
+    margin-left: 10px;
+}
+
+.signup-input {
+    outline: none;
+    color: var(--focus-color);
+
+    &:hover {
+        color: rgba(255, 255, 255, 0.6);
+        border-color: var(--accent-color);
+    }
+    
+    &:not(:placeholder-shown) {
+        border-color: var(--accent-color);
+    }
+}

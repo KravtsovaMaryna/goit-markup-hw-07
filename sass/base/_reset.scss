@@ -1,0 +1,48 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+button{
+    border: none;
+}
+
+img {
+    display: block;
+}
+
+/* img{
+display: block;
+width: 100%;
+height: auto; 
+} */
+
+
+
+
+
+/* ----------RESET---Скидання стилів--------*/
+
+p, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    box-sizing: border-box;
+}
+ul, ol {
+    margin: 0;
+    padding-left: 0;
+}
+button {
+    cursor: pointer;
+    font-family: inherit;
+}

@@ -1,3 +1,22 @@
-body { 
-    color: tomato;
-}
+@import "./utils/variables";
+@import "./base/reset";
+@import "./utils/hidden";
+
+@import "./components/body";
+@import "./components/container";
+
+@import "./header";
+@import "./hero";
+@import "./about";
+@import "./activity";
+@import "./masters";
+@import "./components/masters-soc";
+@import "./clients";
+@import "./footer";
+
+@import "./portfolio/roster";
+@import "./portfolio/images";
+@import "./portfolio/footer-port";
+@import "./signup";
+
+@import "./modal-window/backdrop";

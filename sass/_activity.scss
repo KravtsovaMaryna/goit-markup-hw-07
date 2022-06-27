@@ -1,0 +1,55 @@
+/*-------Activity-------*/
+.activity__title, .masters__title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    color: var(--title-color);
+    }
+
+.activity {
+    padding-top: 0;
+}
+    
+    .activity__title {
+        margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 50px;
+    }
+    
+    .activity__list {
+        display: flex;
+        margin-top: 50px;
+        margin: -15px;
+    }
+    
+    .activity__item {
+        margin: 15px;
+        flex-basis: calc(100% / 3 - 30px);
+    }
+    
+    .activity__wrap {
+        position: relative;
+        overflow: hidden;
+    }
+    
+    .activity__title-top {
+        position: absolute;
+        top: 0;
+        background-color: rgba(47, 48, 58, 0.8);
+        color: var(--focus-color);
+        height: 100%;
+        transform: translateY(77%);
+        width: 100%;
+    
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.15;
+        padding-top: 27px;
+        align-content: center;
+        text-align: center;
+        /* text-align: center;
+        align-items: center; */
+    }
