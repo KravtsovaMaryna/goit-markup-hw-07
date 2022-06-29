@@ -1,9 +1,9 @@
-.masters-soc__list {
+.worker__list {
     display: flex;
     justify-content: center;
 }
 
-.masters-soc__item {
+.worker__item {
     width: 44px;
     height: 44px;
     margin-right: 10px;
@@ -13,7 +13,7 @@
 }
 
 
-    .masters-soc__link {
+    .worker__link {
         width: 100%;
         height: 100%;
         /*поменять цвет на белый - задать правило*/
@@ -32,11 +32,11 @@
         }
     }
 
-    .masters-soc__icon {
+    .worker__icon {
         fill: #AFB1B8;
 
-        .masters-soc__link:hover &,
-        .masters-soc__link:focus & {
+        .worker__link:hover &,
+        .worker__link:focus & {
             fill: var(--focus-color);
          }
     }

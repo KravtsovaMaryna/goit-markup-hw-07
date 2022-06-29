@@ -347,7 +347,7 @@ body {
   margin: -15px;
 }
 
-.masters__team-item-wrapper {
+.worker {
   padding-top: 30px;
   padding-bottom: 30px;
   /* margin-top: 30px;
@@ -362,7 +362,7 @@ body {
   border-radius: 0px 0px 4px 4px;
 }
 
-.masters__item-title {
+.worker__title {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -373,7 +373,7 @@ body {
   /* background-color: var(--focus-color); */
 }
 
-.masters__item-text {
+.worker__text {
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
@@ -383,21 +383,21 @@ body {
   /* margin-bottom: 10px; */
 }
 
-.masters-soc__list {
+.worker__list {
   display: flex;
   justify-content: center;
 }
 
-.masters-soc__item {
+.worker__item {
   width: 44px;
   height: 44px;
   margin-right: 10px;
 }
-.masters-soc__item:last-child {
+.worker__item:last-child {
   margin-right: 0;
 }
 
-.masters-soc__link {
+.worker__link {
   width: 100%;
   height: 100%;
   /*поменять цвет на белый - задать правило*/
@@ -410,14 +410,14 @@ body {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.masters-soc__link:hover, .masters-soc__link:focus {
+.worker__link:hover, .worker__link:focus {
   background-color: var(--accent-color);
 }
 
-.masters-soc__icon {
+.worker__icon {
   fill: #AFB1B8;
 }
-.masters-soc__link:hover .masters-soc__icon, .masters-soc__link:focus .masters-soc__icon {
+.worker__link:hover .worker__icon, .worker__link:focus .worker__icon {
   fill: var(--focus-color);
 }
 
@@ -448,7 +448,7 @@ body {
   margin-right: 0;
 }
 
-.client-soc__link {
+.client__link {
   width: 170px;
   height: 92px;
   display: flex;
@@ -463,7 +463,7 @@ body {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   /*як додати ховер і фокус на бордер?*/
 }
-.client-soc__link:hover, .client-soc__link:focus {
+.client__link:hover, .client__link:focus {
   fill: var(--accent-color);
   background-color: var(--focus-color);
   border-color: var(--accent-color);

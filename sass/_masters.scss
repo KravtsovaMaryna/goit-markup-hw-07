@@ -10,7 +10,7 @@
     margin: -15px;
 }
 
-.masters__team-item-wrapper {
+.worker {
     padding-top: 30px;
     padding-bottom: 30px;
     /* margin-top: 30px;
@@ -24,7 +24,7 @@
 border-radius: 0px 0px 4px 4px;
 }
 
-.masters__item-title {
+.worker__title {
 font-weight: 500;
 font-size: 16px;
 line-height: 1.18;
@@ -35,7 +35,7 @@ margin-bottom: 10px;
 /* background-color: var(--focus-color); */
 }
 
-.masters__item-text {
+.worker__text {
     font-size: 16px;
     line-height: 1.18;
     text-align: center;
