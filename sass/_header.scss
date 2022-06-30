@@ -62,7 +62,7 @@ padding-bottom: 24px; */
 
 &:not(:last-child) {
     margin-right: 50px;
-}
+    }
 }
 
 
@@ -77,8 +77,42 @@ padding-bottom: 24px; */
 
     &:hover, &:focus {
     color: var(--accent-color);}
-    
-   }
+    }
+
+.contact {
+    display: flex;
+    justify-content: right;
+}
+
+.contact__item {
+    font-family: 'Roboto';
+font-weight: 500;
+font-size: 14px;
+line-height: 1.19;
+letter-spacing: 0.02em;
+color: #2196F3;
+padding: 32px 0;
+/* padding-top: 24px;
+padding-bottom: 24px; */
+
+&:not(:last-child) {
+    margin-right: 50px;
+    }
+}
+
+.contact__link {
+    color: #000;
+    display: flex;
+    align-items: center;
+    position: relative;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover, &:focus {
+    color: var(--accent-color);}
+}
+
 
    /*Подчеркивание: обязательно content, чтоб было место для написания, ширина 100% ширины слова, высота в макете, bgc=цвет подчеркивания, закругление. Позиционируем слева отступ 0, опускаем НИЖЕ слова - значение с минусом, если подчеркнуть слово - bottom=0*/
    .nav__link.current::after {
@@ -92,13 +126,13 @@ padding-bottom: 24px; */
     bottom: -32px;
    }
 
-.nav__soc-icon {
+.contact__icon {
         margin-right: 10px;
         fill: var(--main-color);
         justify-content: center;
 
-    .nav__link:hover &,
-    .nav__link:focus & {
+    .contact__link:hover &,
+    .contact__link:focus & {
         fill: var(--accent-color);
     }
 }
